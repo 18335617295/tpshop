@@ -1,0 +1,17 @@
+test_login:
+  data01:
+    username: "13800138006"
+    password: "123456"
+    expecate: '登录成功'
+  data02:
+    username: "1380013800"
+    password: "123456"
+    expecate: '账号不存在!'
+  data03:
+    username: "13800138006"
+    password: '1234567'
+    expecate: '密码错误!'
+  data04:
+    username: "138001380061"
+    password: "123456"
+    expecate: '账号不存在!'
